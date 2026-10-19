@@ -1,0 +1,325 @@
+{
+  "language": "en",
+  "timezone": "Europe/Berlin",
+  "location": {
+    "name": "Heilbronn",
+    "latitude": 49.1427,
+    "longitude": 9.2109
+  },
+  "reminder_list": "Prep",
+  "summaries": [
+    {
+      "id": "morning",
+      "time": "08:00",
+      "day": "today"
+    },
+    {
+      "id": "evening",
+      "time": "23:00",
+      "day": "tomorrow"
+    }
+  ],
+  "minutes": {
+    "travel": 20,
+    "prep": 20,
+    "breakfast": 15,
+    "buffer": 0
+  },
+  "thresholds": {
+    "rain_probability": 40,
+    "wind_kmh": 40,
+    "layer_delta_c": 8
+  },
+  "clothing_bands": [
+    {
+      "id": "freezing",
+      "max_c": 0,
+      "text": {
+        "en": "Winter coat, hat, gloves and scarf.",
+        "tr": "Kalın mont, bere, eldiven ve atkı."
+      }
+    },
+    {
+      "id": "cold",
+      "max_c": 7,
+      "text": {
+        "en": "Warm jacket and a scarf.",
+        "tr": "Kalın ceket ve atkı."
+      }
+    },
+    {
+      "id": "cool",
+      "max_c": 13,
+      "text": {
+        "en": "Light jacket.",
+        "tr": "İnce ceket."
+      }
+    },
+    {
+      "id": "mild",
+      "max_c": 19,
+      "text": {
+        "en": "Long sleeves, maybe a thin layer.",
+        "tr": "Uzun kollu, belki ince bir kat."
+      }
+    },
+    {
+      "id": "warm",
+      "max_c": null,
+      "text": {
+        "en": "T-shirt weather.",
+        "tr": "Tişört havası."
+      }
+    }
+  ],
+  "parts": {
+    "wake": true,
+    "weather": true,
+    "wear": true,
+    "bag": true
+  },
+  "calendars": {
+    "exclude": [
+      "TUM CHN Events"
+    ],
+    "only": [],
+    "default_type": {}
+  },
+  "types": [
+    {
+      "id": "exam",
+      "group": "School",
+      "enabled": true,
+      "keywords": [
+        "exam",
+        "midterm",
+        "klausur",
+        "prüfung",
+        "sınav",
+        "vize",
+        "final"
+      ],
+      "items": {
+        "en": [
+          "student ID",
+          "pen set",
+          "calculator (if allowed)",
+          "water"
+        ],
+        "tr": [
+          "öğrenci kimliği",
+          "kalem seti",
+          "hesap makinesi (izin varsa)",
+          "su"
+        ]
+      }
+    },
+    {
+      "id": "lecture",
+      "group": "School",
+      "enabled": true,
+      "keywords": [
+        "lecture",
+        "tutorial",
+        "seminar",
+        "vorlesung",
+        "vo",
+        "übung",
+        "ue",
+        "tutorium",
+        "ders",
+        "seminer"
+      ],
+      "items": {
+        "en": [
+          "notebook",
+          "pen",
+          "laptop + charger",
+          "student card"
+        ],
+        "tr": [
+          "defter",
+          "kalem",
+          "laptop + şarj aleti",
+          "öğrenci kartı"
+        ]
+      }
+    },
+    {
+      "id": "swimming",
+      "group": "Sport",
+      "enabled": true,
+      "keywords": [
+        "swim",
+        "swimming",
+        "pool",
+        "schwimmen",
+        "schwimmbad",
+        "yüzme",
+        "havuz"
+      ],
+      "items": {
+        "en": [
+          "swimsuit",
+          "cap",
+          "goggles",
+          "towel",
+          "flip-flops",
+          "shower stuff"
+        ],
+        "tr": [
+          "mayo",
+          "bone",
+          "gözlük",
+          "havlu",
+          "terlik",
+          "duş malzemeleri"
+        ]
+      }
+    },
+    {
+      "id": "gym",
+      "group": "Sport",
+      "enabled": true,
+      "keywords": [
+        "gym",
+        "workout",
+        "fitness",
+        "training",
+        "fitnessstudio",
+        "spor",
+        "antrenman"
+      ],
+      "items": {
+        "en": [
+          "sports bag",
+          "sports shoes",
+          "towel",
+          "water bottle",
+          "headphones"
+        ],
+        "tr": [
+          "spor çantası",
+          "spor ayakkabısı",
+          "havlu",
+          "su şişesi",
+          "kulaklık"
+        ]
+      }
+    },
+    {
+      "id": "meeting",
+      "group": "Work",
+      "enabled": true,
+      "keywords": [
+        "meeting",
+        "standup",
+        "sync",
+        "interview",
+        "besprechung",
+        "toplantı",
+        "mülakat"
+      ],
+      "items": {
+        "en": [
+          "laptop + charger",
+          "notebook",
+          "ID/card"
+        ],
+        "tr": [
+          "laptop + şarj aleti",
+          "defter",
+          "kimlik/kart"
+        ]
+      }
+    },
+    {
+      "id": "meal",
+      "group": "Other",
+      "enabled": true,
+      "keywords": [
+        "lunch",
+        "dinner",
+        "brunch",
+        "mittagessen",
+        "abendessen",
+        "frühstück",
+        "öğle yemeği",
+        "akşam yemeği",
+        "kahvaltı",
+        "yemek"
+      ],
+      "items": {
+        "en": [
+          "wallet",
+          "phone charger"
+        ],
+        "tr": [
+          "cüzdan",
+          "telefon şarj aleti"
+        ]
+      }
+    },
+    {
+      "id": "travel",
+      "group": "Other",
+      "enabled": true,
+      "keywords": [
+        "flight",
+        "train",
+        "trip",
+        "travel",
+        "flug",
+        "zug",
+        "reise",
+        "uçuş",
+        "tren",
+        "seyahat",
+        "yolculuk"
+      ],
+      "items": {
+        "en": [
+          "ID/passport",
+          "ticket",
+          "charger",
+          "powerbank"
+        ],
+        "tr": [
+          "kimlik/pasaport",
+          "bilet",
+          "şarj aleti",
+          "powerbank"
+        ]
+      }
+    },
+    {
+      "id": "appointment",
+      "group": "Other",
+      "enabled": true,
+      "keywords": [
+        "appointment",
+        "doctor",
+        "dentist",
+        "arzt",
+        "zahnarzt",
+        "termin",
+        "randevu",
+        "doktor"
+      ],
+      "items": {
+        "en": [
+          "ID",
+          "insurance card",
+          "appointment document"
+        ],
+        "tr": [
+          "kimlik",
+          "sigorta kartı",
+          "randevu belgesi"
+        ]
+      }
+    }
+  ],
+  "title_items": {},
+  "keep_days": 2
+}
