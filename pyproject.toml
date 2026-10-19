@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tum-daily-assistant"
+dynamic = ["version"]
+description = "A local macOS assistant that leaves a short morning/evening iCloud Reminder."
+requires-python = ">=3.11"
+
+[tool.setuptools]
+packages = ["tum_daily_assistant"]
+
+[tool.setuptools.dynamic]
+version = { attr = "tum_daily_assistant.__version__" }
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]

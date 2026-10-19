@@ -5,3 +5,10 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and 
 uses [Semantic Versioning](https://semver.org/).
 
 ## [Unreleased]
+
+### Added
+- Package skeleton with a `--version` CLI stub.
+- Shared data models and filesystem paths.
+- Configuration: defaults, deep merge, validation and atomic saving, plus `config.example.json`.
+- CI workflow running the test suite.
+- Design specification.
